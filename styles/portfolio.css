@@ -18,7 +18,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
- 
+    margin:0 150px;
 }
 
 nav > ul {
@@ -41,18 +41,18 @@ nav a {
     border: 0px;
     color: white;
     font-size: 20px;
-    font-weight: 700px;
+    font-weight:700px;
     padding: 15px 35px;
 }
 .header{
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 
 }
 .banner{
-    padding: 30px 30px 30 px 150px;
+    padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
